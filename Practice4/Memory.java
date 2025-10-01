@@ -1,3 +1,4 @@
+package Practice4;
 class Memory {
     private String model;
     private int size;

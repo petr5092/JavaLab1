@@ -1,3 +1,4 @@
+package Practice4;
 class Monitor {
     private String model;
     private double diagonal;

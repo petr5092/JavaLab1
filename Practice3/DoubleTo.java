@@ -1,3 +1,4 @@
+package Practice3;
 public class DoubleTo {
     public static void main(String[] args) {
         String test = "123";
