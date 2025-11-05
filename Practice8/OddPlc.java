@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OddNum {
+public class OddPlc {
     public static void main(String[] args) {
         odd();
     }
@@ -11,8 +11,10 @@ public class OddNum {
         if (n == 0){
             return;
         }
-        if (n % 2 != 0){
-            System.out.println("     " + n);
+        System.out.println("     " + n);
+        int next = source.nextInt();
+        if (next == 0) {
+            return;
         }
         odd();
     }
